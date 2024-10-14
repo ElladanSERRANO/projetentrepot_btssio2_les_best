@@ -4,7 +4,9 @@
 /.env.local.php
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
+/node_modules/
 /public/bundles/
+/public/build/
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
@@ -23,3 +25,11 @@
 /public/assets/
 /assets/vendor/
 ###< symfony/asset-mapper ###
+
+# Composer
+composer.lock
+
+# Misc
+/.idea/
+/.vscode/
+/.DS_Store
